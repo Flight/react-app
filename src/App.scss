@@ -1,0 +1,13 @@
+@use "sass:math";
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap");
+
+.App {
+  min-width: 300px;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-sizing: border-box;
+
+  &__center {
+    text-align: center;
+  }
+}
